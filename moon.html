@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>December 2013 Moon Phases</title>
+
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>December 2013 Moon Phase Schedule</h1>
+
+<form id = "december">
+	Please enter a day in December:
+	<input type = "number" id = "day" name= "days" style= "width: 40px;">
+	<button type = "button">Submit</button>
+</form>
+
+<h3>Or</h3>
+
+<label>Click on moon phase</label><br>
+
+
+
+
+
+	<figure>
+		<img src = "images/full_moon.jpg" class = "phases"  id = "full_moon" alt = "full_moon">
+		<figcaption>Full Moon</figcaption>
+	</figure>
+	
+	<figure>
+		<img src = "images/waxing_gibbous.jpg" class = "phases" id = "waxing_gibbous" alt = "waxing_gibbous">
+		<figcaption>Waxing Gibbous</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/first_quarter.jpg" class = "phases" id = "first_quarter" alt = "first_quarter">
+		<figcaption>First Quarter</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/waxing_crescent.jpg" class = "phases" id = "waxing_crescent" alt = "waxing_crescent">
+		<figcaption>Waxing Crescent</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/new_moon.jpg" class = "phases" id = "new_moon" alt = "new_moon">
+		<figcaption>New Moon</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/waning_crescent.jpg" class = "phases" id = "waning_crescent" alt = "waning_crescent">
+		<figcaption>Waning Crescent</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/last_quarter.jpg" class = "phases" id = "last_quarter" alt = "last_quarter">
+		<figcaption>Last Quarter</figcaption>
+	</figure>
+
+	<figure>
+		<img src = "images/waning_gibbous.jpg" class = "phases" id = "waning_gibbous" alt = "waning_gibbous">
+		<figcaption>Waning Gibbous</figcaption>
+	</figure>
+
+
+<div id = "orbit">
+
+	<div id ="output"></div>
+
+	<div id ="earth"><img src="images/earth.jpg" id = "earth" alt="earth"></div>
+
+</div>
+
+<div id="sun"><img src="images/half_sun.jpg" id="half_sun" alt="sun"></div>
+
+
+
+<script src="js/moonphase.js"></script>
+
+
+
+</body>
+
+</html>

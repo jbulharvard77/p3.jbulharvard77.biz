@@ -1,0 +1,47 @@
+/*----css----*/
+
+body	{
+	background-color: black;
+	color: white;
+}
+
+#earth	{
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	left: 200px;
+	top: -325px;
+}
+
+#sun	{
+	height: 200px;
+	width: 170px;
+	float: right;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	margin-top: -725px;
+
+}
+
+.phases	{
+	height: 45px;
+	width: 45px;
+	padding: 10px;
+}
+
+#orbit	{
+	height: 700px;
+	width: 700px;
+	position: absolute;
+	left: 200px;
+}
+
+#output	{
+	position: absolute;
+	left: 325px;
+	top: -900px;
+	color: white;
+	font-size: 25px;
+	border-style: solid white 3px;
+}
