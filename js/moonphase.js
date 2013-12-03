@@ -1,5 +1,18 @@
+/*
+****This will take the day entered by the user
+and explain what type of moon there will be on that particular day
+****It will also position the correct moon image in it's
+position around the earth
+*/
+
 $("button").click(function()	{
+	
+//Variable that is the value (day) entered by user
+	
 	var day = $("input[name='days']").val();
+
+//Which days are equal to that specific moon, and which position the image should be in
+
 	if (day>0 && day<3 || day>25 && day<32)	{
 		$("#output").html("There will be a waning crescent moon on December "+ day);
 		$("#waning_crescent").clone().appendTo("#output").css({"position":"absolute", "top":"450px", "left":"300px"});
@@ -37,6 +50,12 @@ $("button").click(function()	{
 	}
 
 });
+
+/*
+****These are the images located on the left of the screen.  The user can click on an image and
+it will place it in it's correct position around the earth
+****It will also present a message explaining which days of the month that particular moon will appear
+*/
 
 $("#full_moon").click(function()	{
 	$("#output").html("The full moon is on December 17");

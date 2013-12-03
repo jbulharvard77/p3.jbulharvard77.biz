@@ -1,33 +1,12 @@
 /*----css----*/
 
+/************************************
+General
+************************************/
+
 body	{
 	background-color: black;
 	color: white;
-}
-
-#earth	{
-	width: 175px;
-	height: 175px;
-	position: absolute;
-	left: 200px;
-	top: -325px;
-}
-
-#sun	{
-	height: 200px;
-	width: 170px;
-	float: right;
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-	margin-top: -725px;
-
-}
-
-.phases	{
-	height: 45px;
-	width: 45px;
-	padding: 10px;
 }
 
 #orbit	{
@@ -43,5 +22,45 @@ body	{
 	top: -900px;
 	color: white;
 	font-size: 25px;
-	border-style: solid white 3px;
 }
+
+figcaption	{
+	font-size: 16px;
+}
+
+p	{
+	font-size: 20px
+}
+
+h2	{
+	margin-left: 60px;
+}
+
+/*************************************
+Images
+*************************************/
+
+#earth	{
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	left: 415px;
+	top: -650px;
+}
+
+#sun	{
+	height: 300px;
+	width: 170px;
+	float: right;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	margin-top: -775px;
+}
+
+.phases	{
+	height: 55px;
+	width: 55px;
+	padding: 10px;
+}
+
