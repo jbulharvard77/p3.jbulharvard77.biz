@@ -4,63 +4,64 @@
 General
 ************************************/
 
-body	{
-	background-color: black;
-	color: white;
+body        {
+    	background-image: url("../images/stars.jpg");
+        color: white;
 }
 
-#orbit	{
-	height: 700px;
-	width: 700px;
-	position: absolute;
-	left: 200px;
+#orbit        {
+        height: 700px;
+        width: 700px;
+        position: absolute;
+        left: 200px;
 }
 
-#output	{
-	position: absolute;
-	left: 325px;
-	top: -900px;
-	color: white;
-	font-size: 25px;
+#output        {
+        position: absolute;
+        left: 325px;
+        top: -900px;
+        color: white;
+        font-size: 25px;
 }
 
-figcaption	{
-	font-size: 16px;
+figcaption        {
+        font-size: 16px;
+        font-weight: bold;
 }
 
-p	{
-	font-size: 20px
+p        {
+        font-size: 20px;
+        font-weight: bold;
 }
 
-h2	{
-	margin-left: 60px;
+h2        {
+        margin-left: 60px;
 }
 
 /*************************************
 Images
 *************************************/
 
-#earth	{
-	width: 175px;
-	height: 175px;
-	position: absolute;
-	left: 415px;
-	top: -650px;
+#earth        {
+        width: 175px;
+        height: 175px;
+        position: absolute;
+        left: 415px;
+        top: -650px;
 }
 
-#sun	{
-	height: 300px;
-	width: 170px;
-	float: right;
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-	margin-top: -775px;
+#sun        {
+        height: 300px;
+        width: 170px;
+        float: right;
+        transform:rotate(90deg);
+        -ms-transform:rotate(90deg);
+        -webkit-transform:rotate(90deg);
+        margin-top: -775px;
 }
 
-.phases	{
-	height: 55px;
-	width: 55px;
-	padding: 10px;
+.phases        {
+        height: 55px;
+        width: 55px;
+        padding: 10px;
 }
-
